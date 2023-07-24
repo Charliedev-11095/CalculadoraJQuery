@@ -1,0 +1,31 @@
+/* Estilo general del body */
+body {
+    background-color: #ffffff;
+  }
+  
+  /* Estilo del contenedor principal */
+  .container {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Estilo del header de la calculadora */
+  .card-header {
+    font-size: 54px;
+  }
+  
+  /* Estilo de los botones de la calculadora */
+  .btn-calculator {
+    font-size: 24px;
+    margin: 2px;
+  }
+  
+  /* Estilo para que los botones sean más grandes en pantallas pequeñas */
+  @media (max-width: 976px) {
+    .btn-calculator {
+      font-size: 18px;
+    }
+  }
+  
